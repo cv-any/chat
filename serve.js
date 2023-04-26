@@ -3,7 +3,7 @@ import express from 'express';
 import bodyParser from 'body-parser';
 import fetch from 'node-fetch';
 
-const apiKey = "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";
+const apiKey = "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";
 const app = express()
 const port = 3000;
 app.use(bodyParser.json());// 添加json解析
