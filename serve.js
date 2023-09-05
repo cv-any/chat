@@ -29,7 +29,7 @@ const chatGPTApi = new ChatGPTAPI({
   apiKey,
   fetch,
 });
-
+// test;
 app.get('/sendMsg', async (req, res) => {
   const { query, body } = req;
   console.log({ query, body, }, 'req <<<<<<<')
