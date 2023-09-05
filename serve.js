@@ -15,7 +15,7 @@ app.use(bodyParser.urlencoded({extended: false}));
 //   next();
 // });
 
-
+// test
 app.all('*', function(req, res, next) {
   res.header("Access-Control-Allow-Origin", req.headers.origin);
   res.header("Access-Control-Allow-Credentials", "true");
